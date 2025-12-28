@@ -1,0 +1,19 @@
+[package]
+name = "rs-msgcount"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies.serde_json]
+version = "1"
+default-features = false
+features = [
+	"std",
+]
+
+[dependencies.serde]
+version = "1"
+default-features = false
+features = [
+	"std",
+	"derive",
+]

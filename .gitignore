@@ -30,3 +30,5 @@ go.work.sum
 # Editor/IDE
 # .idea/
 # .vscode/
+*.swp
+cmd/json2wasi2json-wazero-example/j2w2j
